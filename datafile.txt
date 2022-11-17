@@ -1,0 +1,27 @@
+beam_type Simply_supported
+wall_position None
+span 20
+A 0
+B 20
+point_loads [[6, 0, -90]]
+point_moments [[3, -40]]
+distributed_loads [[]]
+linear_loads [[8, 17, -10, 0]]
+beam_type Overhanging
+wall_position None
+span 15
+A 0
+B 10
+point_loads [[12, 0, -40]]
+point_moments [[]]
+distributed_loads [[0, 5, -5], [5, 10, -20]]
+linear_loads [[]]
+beam_type Cantilever
+wall_position left
+span 17
+A 0
+B 0
+point_loads [[12, 0, -40]]
+point_moments [[]]
+distributed_loads [[]]
+linear_loads [[]]
