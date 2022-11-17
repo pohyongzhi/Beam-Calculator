@@ -12,4 +12,4 @@ $ python beam.py
 
 ## Other information
 - Simply supported and overhanging beams can take in point loads, point moments, distributed loads, and linear loads.
-- Cantilever beam can only take in point load inputf
+- Cantilever beam can only take in point load input
